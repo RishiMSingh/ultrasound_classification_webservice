@@ -8,7 +8,13 @@ import cv2
 from PIL import Image
 import io
 
-app = FastAPI()
+app = FastAPI(
+    title="CRL Ultrasound Classifier API",
+    description="API for predicting ultrasound image quality and providing CRL classification.",
+    version="1.0.0",
+    docs_url="/docs",       
+    redoc_url="/redoc",          
+)
 
 # Allow frontend (Streamlit) access
 app.add_middleware(
