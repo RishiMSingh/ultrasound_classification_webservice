@@ -1,6 +1,6 @@
 # ultrasound_classification_webservice
 
-# CRL Ultrasound Classification API
+## CRL Ultrasound Classification API
 
 A FastAPI-based backend for predicting **Crown-Rump Length (CRL) ultrasound image quality** using a pre-trained deep learning model. This API receives an image and returns a predicted label (`good` or `bad`) along with a probability score.
 
